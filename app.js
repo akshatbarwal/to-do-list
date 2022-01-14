@@ -149,7 +149,7 @@ let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
 }
-app.listen(port);
+
 
 //for using the website locally
 app.listen(port, function() {
